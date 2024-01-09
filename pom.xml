@@ -79,6 +79,12 @@
 			<version>1.0.1</version>
 		</dependency>
 
+		<!-- For enabling @Observed annotation aspect -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
