@@ -39,7 +39,7 @@ services:
     command: [ "-config.file=/etc/tempo.yaml" ]
     volumes:
       - ./monitoring/tempo/tempo.yml:/etc/tempo.yaml:ro
-      - ./docker/tempo/tempo-data:/tmp/tempo
+      - ./monitoring/tempo/tempo-data:/tmp/tempo
     ports:
       - "3110:3100"
       - "9411:9411"
